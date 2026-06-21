@@ -1,39 +1,39 @@
-@echo off
-title Calendar Reminder - Uninstaller
-setlocal enabledelayedexpansion
+@echo off   @echo掉
+title Calendar Reminder - Uninstaller标题日历提醒-卸载程序
+setlocal enabledelayedexpansion对本地enabledelayedexpansion
 
 echo ================================================回声  ================================================
-echo   Calendar Reminder v2 - Complete Uninstall
-echo ================================================
-echo.
+echo   Calendar Reminder v2 - Complete Uninstallecho日历提醒v2 -完成卸载
+echo ================================================回声  ================================================
+echo.   的回声。
 
-set "INSTALL_DIR=%APPDATA%\CalendarReminder"
-set "STARTUP_VBS=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\calendar_reminder.vbs"
-set "DESKTOP_LNK=%USERPROFILE%\Desktop\Calendar Reminder.lnk"
-set "ERROR_FLAG=0"
+set "INSTALL_DIR=%APPDATA%\CalendarReminder"set "INSTALL_DIR=%APPDATA%\CalendarReminder"
+set "STARTUP_VBS=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\calendar_reminder.vbs"set "STARTUP_VBS=%APPDATA%\Microsoft\Windows\开始菜单\程序\Startup\ calendar_reminders .vbs"；
+set "DESKTOP_LNK=%USERPROFILE%\Desktop\Calendar Reminder.lnk"set "DESKTOP_LNK=%USERPROFILE%\Desktop\Calendar remind .lnk"；
+set "ERROR_FLAG=0"   set "ERROR_FLAG=0"
 
 :: ============================================
-echo [1/5] Stopping running processes...
+echo [1/5] Stopping running processes...echo[1/5]停止正在运行的进程…
 :: ============================================
-taskkill /im CalendarReminder.exe /f 2>&1 | findstr /i "SUCCESS" >nul
-if !errorlevel! equ 0 (
-    echo        CalendarReminder.exe terminated
+taskkill /im CalendarReminder.exe /f 2>&1 | findstr /i "SUCCESS" >nultaskkill /im CalendarReminder.exe /f 2>&1 | findstr /i “ SUCCESS ”
+if !errorlevel! equ 0 (如果批处理命令!方程0 (
+    echo        CalendarReminder.exe terminatedecho calendarremind .exe终止
 ) else (
-    echo        CalendarReminder.exe not running
+    echo        CalendarReminder.exe not runningecho calendarremind .exe未运行
 )
 
-taskkill /im ManageReminders.exe /f 2>&1 | findstr /i "SUCCESS" >nul
-if !errorlevel! equ 0 (
-    echo        ManageReminders.exe terminated
+taskkill /im ManageReminders.exe /f 2>&1 | findstr /i "SUCCESS" >nultaskkill /im ManageReminders.exe /f 2>&1 | findstr /i “ SUCCESS ”
+if !errorlevel! equ 0 (如果批处理命令!方程0 (
+    echo        ManageReminders.exe terminatedecho ManageReminders.exe终止
 ) else (
-    echo        ManageReminders.exe not running
+    echo        ManageReminders.exe not runningecho ManageReminders.exe未运行
 )
 
-:: Wait for processes to fully exit
-ping -n 3 127.0.0.1 >nul
+:: Wait for processes to fully exit：：等待进程完全退出
+ping -n 3 127.0.0.1 >nulPing -n 3 127.0.0.1 > null
 
-tasklist /fi "imagename eq CalendarReminder.exe" 2>nul | findstr /i "CalendarReminder.exe" >nul
-if !errorlevel! equ 0 (
+tasklist /fi "imagename eq CalendarReminder.exe" 2>nul | findstr /i "CalendarReminder.exe" >nultasklist /fi "imagename eq CalendarReminder.exe" 2>nul | findstr /i "CalendarReminder.exe" >nul
+if !errorlevel! equ 0 (如果批处理命令!方程0 (
     echo        [WARNING] CalendarReminder.exe still running!
     set "ERROR_FLAG=1"
 )
