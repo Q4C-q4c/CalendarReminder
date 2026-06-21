@@ -2,7 +2,7 @@
 
 Windows 桌面日历提醒工具，开机自启，弹窗通知。
 管理界面:
-<img width="1506" height="796" alt="屏幕截图 2026-06-21 214241" src="https://github.com/user-attachments/assets/51e2839a-0f44-4405-ac6c-17b8addafbd6" />  
+<img width   宽度="1506" height="796" alt="屏幕截图 2026-06-21 214241" src="https://github.com/user-attachments/assets/51e2839a-0f44-4405-ac6c-17b8addafbd6" />  
 
 弹窗界面:
 
