@@ -1,3 +1,6 @@
+ ![platform](https://img.shields.io/badge/platform-Windows-blue)
+  ![license](https://img.shields.io/badge/license-MIT-green)
+  ![release](https://img.shields.io/badge/release-v1.0.0-blue)
 # Calendar Reminder 日历提醒
 
 Windows 桌面日历提醒工具，开机自启，弹窗通知。
