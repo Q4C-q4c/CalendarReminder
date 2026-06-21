@@ -2,7 +2,7 @@
 
 Windows 桌面日历提醒工具，开机自启，弹窗通知。
 
-# 软件界面
+## 软件界面
 管理界面:
 ![](https://github.com/user-attachments/assets/51e2839a-0f44-4405-ac6c-17b8addafbd6)
 
@@ -10,7 +10,10 @@ Windows 桌面日历提醒工具，开机自启，弹窗通知。
 
 ![](https://github.com/user-attachments/assets/63b42394-7f66-4389-af47-f464e6475300)
 
+## 功能
+顾名思义，在设置好的日期弹窗提醒，可设置是否重复弹窗，标题内容以及弹窗时间间隔均在双击install.bat后出现的快捷方式中设置
 
+![快捷方式](https://github.com/user-attachments/assets/e5f972e2-23dc-487f-b52d-dc40418a7dda)
 
 
 ## 安装
@@ -25,6 +28,6 @@ Windows 桌面日历提醒工具，开机自启，弹窗通知。
 
 手动清理：
 1. 任务管理器结束 CalendarReminder.exe 和 ManageReminders.exe
-2. Win+R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs
+2. Win+R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs
 3. 删除 %APPDATA%\CalendarReminder 目录
 4. 删除桌面快捷方式
