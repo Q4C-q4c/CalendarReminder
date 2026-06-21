@@ -28,6 +28,6 @@ Windows 桌面日历提醒工具，开机自启，弹窗通知。
 
 手动清理：
 1. 任务管理器结束 CalendarReminder.exe 和 ManageReminders.exe
-2. Win+R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs2. Win R 输入 shell:startup，删除 calendar_reminder.vbs
+2. Win+R 输入 shell:startup，删除 calendar_reminder.vbs2. 
 3. 删除 %APPDATA%\CalendarReminder 目录
 4. 删除桌面快捷方式
